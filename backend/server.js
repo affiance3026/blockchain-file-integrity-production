@@ -16,7 +16,7 @@ const app = express();
 // Middleware
 app.use(
   cors({
-    origin: "https://blockchain-file-integrity-productio.vercel.app/",
+    origin: "https://blockchain-file-integrity-productio.vercel.app",
     credentials: true,
   })
 );
